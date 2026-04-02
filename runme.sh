@@ -15,6 +15,9 @@ git clone https://github.com/ayourtch-llm/ayiosupdate || (cd ayiosupdate ; git p
 git clone https://github.com/ayourtch-llm/ayping || (cd ayping ; git pull)
 git clone https://github.com/ayourtch-llm/aycfgprovision || (cd aycfgprovision ; git pull)
 git clone https://github.com/ayourtch-llm/aycicdiff || (cd aycicdiff; git pull)
+git clone https://github.com/ayourtch-llm/ayciam || (cd ayciam; git pull)
+git clone https://github.com/ayourtch-llm/aycfgapply || (cd aycfgapply; git pull)
+
 (cd aysnmp && cargo build)
 (cd aycfggen && cargo build)
 (cd ayiosupdate && cargo build)
