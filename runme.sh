@@ -17,10 +17,12 @@ git clone https://github.com/ayourtch-llm/aycfgprovision || (cd aycfgprovision ;
 git clone https://github.com/ayourtch-llm/aycicdiff || (cd aycicdiff; git pull)
 git clone https://github.com/ayourtch-llm/ayciam || (cd ayciam; git pull)
 git clone https://github.com/ayourtch-llm/aycfgapply || (cd aycfgapply; git pull)
+git clone https://github.com/ayourtch-llm/aymcp-exec-cli || (cd aymcp-exec-cli; git pull)
 
 (cd aysnmp && cargo build)
 (cd aycfggen && cargo build)
 (cd ayiosupdate && cargo build)
+(cd aymcp-exec-cli && cargo build)
 
 echo "cd aysnmp and have a look at README.md"
 
